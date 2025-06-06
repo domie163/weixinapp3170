@@ -1,0 +1,6 @@
+const menu = {
+    list() {
+        return [{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"家庭成员","menuJump":"列表","tableName":"jiatingchengyuan"}],"menu":"家庭成员管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"事务类型","menuJump":"列表","tableName":"shiwuleixing"}],"menu":"事务类型管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"家庭事务","menuJump":"列表","tableName":"jiatingshiwu"}],"menu":"家庭事务管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"交流论坛","tableName":"forum"}],"menu":"交流论坛"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"家庭公告","tableName":"news"},{"buttons":["查看","修改","删除"],"menu":"轮播图管理","tableName":"config"}],"menu":"系统管理"}],"frontMenu":[{"child":[{"buttons":["查看"],"menu":"家庭事务列表","menuJump":"列表","tableName":"jiatingshiwu"}],"menu":"家庭事务模块"}],"hasBackLogin":"是","hasBackRegister":"否","hasFrontLogin":"否","hasFrontRegister":"否","roleName":"管理员","tableName":"users"},{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"家庭事务","menuJump":"列表","tableName":"jiatingshiwu"}],"menu":"家庭事务管理"}],"frontMenu":[{"child":[{"buttons":["查看"],"menu":"家庭事务列表","menuJump":"列表","tableName":"jiatingshiwu"}],"menu":"家庭事务模块"}],"hasBackLogin":"是","hasBackRegister":"是","hasFrontLogin":"是","hasFrontRegister":"是","roleName":"家庭成员","tableName":"jiatingchengyuan"}]
+    }
+}
+export default menu;
